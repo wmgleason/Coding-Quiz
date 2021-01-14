@@ -3,30 +3,53 @@
 /* Center the Coding Quiz Challenge heading */
 
 .container {
-    height: 200px;
-    position: relative;
-  }
-  h1 {
-    text-align:center;
+  height: 200px;
+  position: relative;
 }
-  .center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-  .button {
-    background-color: #774caf;
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  P { text-align: center }
+h1 {
+  text-align:center;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button {
+  background-color: #774caf;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+P { text-align: center }
+
+.question{
+  font-weight: 600;
+}
+.answers {
+margin-bottom: 20px;
+}
+.answers label{
+display: block;
+}
+#submit{
+  font-size: 20px;
+  background-color: #14bde1;
+  color: #fff;
+  border-radius: 15px;
+  padding:10px 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border:0;
+}
+#submit:hover{
+  background-color: #38a;
+}
