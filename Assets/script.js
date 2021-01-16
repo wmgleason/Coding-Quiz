@@ -1,8 +1,12 @@
-
+$(function () {
+  console.log( "ready!" );
+});
     var quizContainer = document.getElementById("quiz");
     var startButton = document.getElementById("startButton");
     
-
+    myQuestions.forEach( (currentQuestion, questionNumber) => {
+      // the code we want to run for each question goes here
+    });
 function showQuiz(){
     // variable to store the HTML output
     const output = [];
@@ -37,9 +41,7 @@ function showQuiz(){
   // finally combine our output list into one string of HTML and put it on the page
   quizContainer.innerHTML = output.join('');
 }
-myQuestions.forEach( (currentQuestion, questionNumber) => {
-  // the code we want to run for each question goes here
-});
+
 function showResults(){}
 
 showQuiz();
