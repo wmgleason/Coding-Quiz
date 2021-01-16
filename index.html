@@ -12,11 +12,20 @@
 <body>
     <h1>Coding Quiz Challenge</h1>
     <p>Try to answer the following code-related questions within the time limit. <br>Keep in mind that incorrect answers will penalize your score/time by <span style="color:red">ten seconds!</span></br></p>
-
-    <div id="quiz"></div>
-
-    <button class="button" value="startButton">Start Quiz</button>
-
+<!-- Added buttons for the questions and the possible answers -->
+    <div id="questions" class="container" class="hiddenByDefault">
+        <input type="button" class="center" class="hiddenByDefault" id="theCurrentQuestion" value="">
+        <input type="button" class="center" class="hiddenByDefault" id="answerA" value="">
+        <input type="button" class="center" class="hiddenByDefault" id="answerB" value="">
+        <input type="button" class="center" class="hiddenByDefault" id="answerC" value="">
+        <input type="button" class="center" class="hiddenByDefault" id="answerD" value="">
+    </div>
+    <div id="answers" class="container">
+    <button id="startButton" class="button" class="center" value="startButton" onclick="startQuiz()">Start Quiz</button>
+    </div>
+<!-- added div for the timer and the answers -->
+    <div id=answersAndTimer><progress class="center" value="0" max="10" id="progressBar"></progress>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./Assets/script.js"></script>
 </body>
