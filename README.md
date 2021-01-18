@@ -8,7 +8,7 @@ This short coding quiz is meant to exercise the use of elementary HTML, CSS, Jav
 <h2>Visuals</h2>
 
 The Coding Quiz is based on this gif provided as a model to work from:
-![Image of the Coding Quiz example](https://github.com/wmgleason/Coding-Quiz/Assets/04-web-apis-homework-demo.gif)
+![Image of the Coding Quiz example](https://wmgleason.github.io/Coding-Quiz/Assets/04-web-apis-homework-demo.gif)
 
 <h2>Installation</h2>
 
