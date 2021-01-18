@@ -27,11 +27,11 @@ Because this project is my homework project, please do not alter the files.
 
 <h2>Authors and acknowledgment</h2>
 
-This project was written by Wanda Gleason with a great deal of help from my teachers Scott and Mike, my tutor Bobby Hoffman and of course, StackOverflow and the Internet.
+This project was written by Wanda Gleason.
 
 <h2>License</h2>
 
 This project is freely licensable.
 
 <h2>Project status</h2>
-Finished as of 17 January 2021. Could use some improvement.
+Submitted 17 January 2021. Unfinished.
