@@ -13,7 +13,7 @@ The Coding Quiz is based on this gif provided as a model to work from:
 
 <h2>Installation</h2>
 
-This project should be usable in any common web browse at this address: <https://wmgleason.github.io/Coding-Quiz/.>
+This project should be usable in any common web browser; the deployed version of this coding quiz can be found here: <https://wmgleason.github.io/Coding-Quiz/.>
 
 <h2>Usage</h2>
 This project is a web development exercise for the author but could be expanded to offer a more extensive quiz for the user in coding or another topic. 
