@@ -3,7 +3,8 @@ A small quiz on coding made with HTML, CSS, JavaScript and JQuery
 
 <h2>Description</h2>
 
-This short coding quiz is meant to exercise the use of elementary HTML, CSS, JavaScript and APIs.
+This quiz offers the user a timed quiz in which they must answer several short questions on coding. It allows the user to save their high score at the end. 
+This short coding quiz is meant as an exercise for the author in the use of elementary HTML, CSS, JavaScript and APIs.
 
 <h2>Visuals</h2>
 
@@ -15,7 +16,7 @@ The Coding Quiz is based on this gif provided as a model to work from:
 This project should be usable in any common web browse at this address: <https://wmgleason.github.io/Coding-Quiz/.>
 
 <h2>Usage</h2>
-This project is meant as an exercise for the author to learn to use some basic front end bits. 
+This project is a web development exercise for the author but could be expanded to offer a more extensive quiz for the user in coding or another topic. 
 
 <h2>Support</h2>
 
